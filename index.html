@@ -6,35 +6,333 @@
 
 <title>NOQQE LLC | Return to Your Origin</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    background:#ffffff;
-    color:#0f172a;
-    line-height:1.8;
+font-family:'Inter',sans-serif;
+color:#0f172a;
+line-height:1.8;
+background:
+radial-gradient(circle at top,#eef8ff 0%,#ffffff 45%);
 }
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:40px 20px;
+min-height:85vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px 20px;
 }
 
 .logo{
-    max-width:700px;
-    width:90%;
-    margin-bottom:40px;
+width:100%;
+max-width:900px;
+height:auto;
+margin-bottom:30px;
 }
+
+.tagline{
+font-size:1.5rem;
+font-weight:300;
+letter-spacing:4px;
+margin-bottom:15px;
+}
+
+.subtitle{
+font-size:1.1rem;
+color:#64748b;
+margin-bottom:40px;
+}
+
+.divider{
+width:160px;
+height:2px;
+background:
+linear-gradient(
+90deg,
+#0ea5e9,
+#14b8a6
+);
+}
+
+.section{
+max-width:1000px;
+margin:auto;
+padding:90px 24px;
+}
+
+.section h2{
+font-size:2.1rem;
+font-weight:600;
+margin-bottom:30px;
+text-align:center;
+}
+
+.section p{
+max-width:760px;
+margin:auto;
+text-align:center;
+color:#334155;
+font-size:1.05rem;
+}
+
+.values{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+gap:24px;
+margin-top:60px;
+}
+
+.card{
+padding:32px;
+border-radius:18px;
+background:white;
+border:1px solid #e2e8f0;
+transition:0.25s;
+box-shadow:
+0 10px 30px rgba(15,23,42,.03);
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:
+0 20px 50px rgba(15,23,42,.08);
+}
+
+.card h3{
+margin-bottom:12px;
+font-size:1.2rem;
+}
+
+.company{
+max-width:650px;
+margin:0 auto;
+text-align:center;
+padding:40px;
+background:white;
+border-radius:20px;
+border:1px solid #e2e8f0;
+box-shadow:
+0 10px 30px rgba(15,23,42,.03);
+}
+
+.company-name{
+font-size:1.4rem;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.footer{
+padding:80px 20px;
+text-align:center;
+background:#f8fafc;
+margin-top:60px;
+}
+
+.contact{
+font-size:1.15rem;
+margin-top:20px;
+}
+
+.contact a{
+text-decoration:none;
+color:#0284c7;
+font-weight:500;
+}
+
+.contact a:hover{
+color:#0369a1;
+}
+
+.copyright{
+margin-top:30px;
+font-size:0.9rem;
+color:#64748b;
+}
+
+@media(max-width:768px){
+
+.hero{
+min-height:auto;
+padding:50px 20px;
+}
+
+.logo{
+max-width:100%;
+}
+
+.tagline{
+font-size:1rem;
+letter-spacing:2px;
+}
+
+.subtitle{
+font-size:.95rem;
+}
+
+.section{
+padding:60px 20px;
+}
+
+.section h2{
+font-size:1.6rem;
+}
+
+.values{
+grid-template-columns:1fr;
+}
+
+.card{
+padding:24px;
+}
+
+.company{
+padding:28px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<img src="logo.png" alt="NOQQE" class="logo">
+
+<div class="tagline">
+Return to Your Origin
+</div>
+
+<div class="subtitle">
+原点に還る。未来の自分へ。
+</div>
+
+<div class="divider"></div>
+
+</section>
+
+<section class="section">
+
+<h2>Philosophy</h2>
+
+<p>
+NOQQEは、
+人が本来持つ可能性を信じ、
+原点と未来をつなぐために生まれました。
+</p>
+
+<br>
+
+<p>
+変化の激しい時代だからこそ、
+本質を見失わず、
+より良い自分へ進化し続ける。
+</p>
+
+<br>
+
+<p>
+NOQQEは、
+その歩みを支えるブランドです。
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Vision</h2>
+
+<div class="values">
+
+<div class="card">
+<h3>Origin</h3>
+<p style="text-align:left">
+すべての始まり。<br>
+原点・循環・調和。
+</p>
+</div>
+
+<div class="card">
+<h3>Energy</h3>
+<p style="text-align:left">
+内なる可能性を高め、<br>
+新しい価値を創造する。
+</p>
+</div>
+
+<div class="card">
+<h3>Evolution</h3>
+<p style="text-align:left">
+進化・成長・未来へ。<br>
+より良い自分へ。
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Company</h2>
+
+<div class="company">
+
+<div class="company-name">
+NOQQE合同会社
+</div>
+
+<p>
+東京都中央区
+</p>
+
+<br>
+
+<p>
+Return to Your Origin
+</p>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h2>Contact</h2>
+
+<div class="contact">
+<a href="mailto:contact@noqqe.com">
+contact@noqqe.com
+</a>
+</div>
+
+<div class="copyright">
+© 2026 NOQQE LLC. All Rights Reserved.
+</div>
+
+</footer>
+
+</body>
+</html>}
 
 .tagline{
     font-size:1.3rem;
