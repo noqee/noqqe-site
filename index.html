@@ -316,21 +316,107 @@ Return to Your Origin
 
 </section>
 
-<footer class="footer">
+<footer class="footer"><h2>Contact</h2><p>
+ご質問・ご相談は下記フォームよりお気軽にお問い合わせください。
+</p><div class="contact-form"><form
+action="https://formspree.io/f/xpqeqgwo"
+method="POST"><input
+type="text"
+name="name"
+placeholder="お名前"
+required>
 
-<h2>Contact</h2>
+<input
+type="email"
+name="email"
+placeholder="メールアドレス"
+required>
 
-<div class="contact">
-<a href="mailto:contact@noqqe.com">
+<textarea
+name="message"
+rows="6"
+placeholder="お問い合わせ内容"
+required></textarea><button type="submit">
+お問い合わせを送信
+</button></form></div><div class="response-time">
+通常3営業日以内にご返信いたします。
+</div><div class="contact-mail">
 contact@noqqe.com
-</a>
-</div>
-
-<div class="copyright">
+</div><div class="copyright">
 © 2026 NOQQE LLC. All Rights Reserved.
-</div>
+</div></footer>
+  
+.icon{
+font-size:2rem;
+margin-bottom:15px;
+color:#0ea5e9;
+text-align:center;
+}
 
-</footer>
+.card p{
+text-align:center !important;
+}
 
+.contact-form{
+max-width:650px;
+margin:30px auto 0;
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:14px 16px;
+border:1px solid #cbd5e1;
+border-radius:12px;
+font-size:1rem;
+font-family:inherit;
+background:white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+outline:none;
+border-color:#0ea5e9;
+box-shadow:0 0 0 4px rgba(14,165,233,.1);
+}
+
+.contact-form button{
+padding:15px;
+border:none;
+border-radius:12px;
+font-size:1rem;
+font-weight:600;
+cursor:pointer;
+color:white;
+background:
+linear-gradient(
+90deg,
+#0ea5e9,
+#14b8a6
+);
+transition:.25s;
+}
+
+.contact-form button:hover{
+transform:translateY(-2px);
+}
+
+.response-time{
+margin-top:20px;
+font-size:.9rem;
+color:#64748b;
+}
+
+.contact-mail{
+margin-top:12px;
+font-size:.9rem;
+color:#94a3b8;
+}  
 </body>
 </html>
